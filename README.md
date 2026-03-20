@@ -26,6 +26,21 @@ FRED ECONOMIC PROJECT/
 ├── fred_env/               # Virtual environment (not tracked in Git)
 ├── fred_econ.ipynb         # Main analysis notebook
 ├── .env                    # Stores API key (not shared)
+|
+├── analysis_images/        # Stores all the EDA Visualization Images
+|        └── cpi_index.png
+|        └── federal_funds_rate.png
+|        └── gdp_growth_cycle.png
+|        └── gdp_growth_rate.png
+|        └── nominal_vs_real_gdp.png
+|        └── s&p500_during_recession.png
+|        └── s&p500_index.png
+|        └── stock_market_vs_federal_funds.png
+|        └── unemployment_rate_recession.png
+|        └── us_gdp.png
+|        └── us_unemployment_rate.png
+|        └── yield_curve_speed.png
+|
 ├── .env.example            # Template for environment variables
 ├── .gitignore              # Files ignored by Git
 ├── requirements.txt        # Project dependencies
@@ -131,20 +146,32 @@ The analysis follows a structured workflow:
 * **Inflation Trends (CPI)**
   Understanding long-term inflation behavior and spikes
 
+![Dashboard](analysis_images/cpi_index.png)
+
 * **Monetary Policy (Federal Funds Rate)**
   Studying how interest rates change over time
+
+![Dashboard](analysis_images/federal_funds_rate.png)
 
 * **Yield Curve Analysis (10Y–2Y Spread)**
   Identifying inversion periods and their implications
 
+![Dashboard](analysis_images/yield_curve_speed.png)
+
 * **Stock Market vs Interest Rates**
   Examining how equity markets react to rate changes
+
+![Dashboard](analysis_images/stock_market_vs_federal_funds.png)
 
 * **Unemployment During Recessions**
   Tracking labor market stress during downturns
 
+![Dashboard](analysis_images/unemployment_rate_recession.png)
+
 * **GDP Growth & Economic Cycles**
   Understanding expansion and contraction phases
+
+![Dashboard](analysis_images/gdp_growth_cycle.png)
 
 ---
 
