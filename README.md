@@ -70,7 +70,7 @@ Key indicators analyzed include:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/fred-economic-project.git
+git clone https://github.com/WizardNox/FRED-Economic-Data-Analysis.git
 cd fred-economic-project
 ```
 
